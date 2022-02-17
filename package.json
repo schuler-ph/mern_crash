@@ -1,0 +1,29 @@
+{
+    "name": "mern_crash",
+    "version": "1.0.0",
+    "description": "Goalsetter App - Part of the MERN crash course 2022 by Traversy Media",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "server": "nodemon backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/schuler-ph/mern_crash.git"
+    },
+    "author": "Philipp Schuler",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/schuler-ph/mern_crash/issues"
+    },
+    "homepage": "https://github.com/schuler-ph/mern_crash#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "mongoose": "^6.2.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
